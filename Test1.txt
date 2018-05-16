@@ -1,0 +1,23 @@
+Work plan per 20180516
+
+Find code for setting postion, code as example
+Find code for pressure
+
+Teleoperation vs direct human interaction
+
+We need to do the human interaction with photos, interaction with object with paint
+
+Task:
+AXL check - code, send to RAF
+AXL make objects
+
+
+EKREM how to merge data
+
+
+Apache License 2.0
+MIT Lincese?
+GNU General Public License v3.0?
+
+
+Markdown sytax eller HTML
