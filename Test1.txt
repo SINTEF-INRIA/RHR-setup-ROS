@@ -1,4 +1,4 @@
-Work plan per 20180516
+20180516 Work plan
 
 Find code for setting postion, code as example
 Find code for pressure
