@@ -7,6 +7,10 @@ Clone Repository:
 
 ```git clone https://github.com/SINTEF-INRIA/RHR-setup-ROS```
 
+Change directory:
+
+```cd RHR-setup-ROS```
+
 Pull submodules:
 
 ```git submodule init && git submodule update```
