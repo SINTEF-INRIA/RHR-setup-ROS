@@ -17,7 +17,7 @@ Pull submodules:
 
 Change directory:
 
-```cd Installation\reflex-ros-pkg```
+```cd Installation/reflex-ros-pkg```
 
 ### Flashing firmware
 ------
