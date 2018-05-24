@@ -3,26 +3,28 @@ Setup of RHR in ROS
 
 ## Installation
 
-Clone Repository:
+Make catkin workspace:
 
-```git clone https://github.com/SINTEF-INRIA/RHR-setup-ROS```
+    mkdir -p ~/catkin_ws/src
+    
+Clone repository:
 
-Change directory:
+    cd ~/catkin_ws/src 
+    git clone https://github.com/SINTEF-INRIA/RHR-setup-ROS
 
-```cd RHR-setup-ROS```
+Update submodules:
 
-Pull submodules:
+    cd RHR-setup-ROS
+    git submodule init && git submodule update
 
-```git submodule init && git submodule update```
+Catkin make (Installs pkg)
 
-Change directory:
+    cd ~/catkin_ws/
+    catkin_make
 
-```cd Installation/reflex-ros-pkg```
-
-### Flashing firmware
-------
 First, you need to get the cross-compiler (gcc-arm) and build OpenOCD, the JTAG transport, and the DFU (Device Firmware Updater) utility. On Ubuntu 12.04 and 14.04 (and potentially others), this is all scripted for you:
 
+    cd ~/catkin_ws/src/RHR-setup-ROS/Installation/reflex-ros-pkg
     cd firmware/tools 
     make 
     make dfu
@@ -32,3 +34,4 @@ Now you can build the firmware image. If you are using the ReFlex Takktile,
     cd firmware/reflex-takktile
     make clean
     make
+
