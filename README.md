@@ -24,6 +24,8 @@ Catkin make (Installs pkg)
 
 First, you need to get the cross-compiler (gcc-arm) and build OpenOCD, the JTAG transport, and the DFU (Device Firmware Updater) utility. On Ubuntu 12.04 and 14.04 (and potentially others), this is all scripted for you:
 
+Since we are using Ubuntu 16.04, there's been some problems. In the Makefile within ```firmware/tools``` we've change one line from referencing a repository with cannot access to one with access. (However, with 18.04 we needed to target the artful repository as bionic is non-existent at the moment. You can re-target with ```sudo nano /etc/apt/sources.list.d/tema-gcc-arm-embedded-ubuntu-ppa-YOUR_VERSION```. Check Team-GCC-arm-embedded.)
+
     cd ~/catkin_ws/src/RHR-setup-ROS/Installation/reflex-ros-pkg
     cd firmware/tools 
     make 
