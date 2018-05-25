@@ -4,3 +4,6 @@
 [submodule "Installation/reflex-ros-pkg"]
 	path = Installation/reflex-ros-pkg
 	url = https://github.com/SINTEF-INRIA/reflex-ros-pkg
+[submodule "Quick-setup-RHR-test-run/reflex-api"]
+	path = Quick-setup-RHR-test-run/reflex-api
+	url = https://github.com/RightHandRobotics/reflex-api
