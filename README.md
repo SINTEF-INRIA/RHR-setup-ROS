@@ -31,7 +31,7 @@ Since we are using Ubuntu 16.04, there's been some problems. In the Makefile wit
     make 
     make dfu
 
-(However, with 18.04 we needed to target the artful repository as bionic is non-existent at the moment. You can re-target with ```sudo nano /etc/apt/sources.list.d/tema-gcc-arm-embedded-ubuntu-ppa-`lsb_release --codename | cut -f2`.list```. Replace releasename with a viable one from Team-GCC-arm-embedded. Then update: ```sudo apt update```.)
+(However, with 18.04 we needed to target the artful repository as bionic is non-existent at the moment. You can re-target with ```sudo nano /etc/apt/sources.list.d/tema-gcc-arm-embedded-ubuntu-ppa-`lsb_release --codename | cut -f2`.list```. Replace releasename with a viable one from Team-GCC-arm-embedded. Then run the above code again.)
 
 Now you can build the firmware image. If you are using the ReFlex Takktile, 
 
