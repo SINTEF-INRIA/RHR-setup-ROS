@@ -1,6 +1,6 @@
 ## Installation
 
-You need at least complier for CPP11, or set flag for CPP11: ```g++ -std=c++11 YOUR_FILE.cpp -o YOUR_PROGRAM``` or better set environment variables with ```export CXXFLAGS=-g -std=c++11 -Wall -pedantic```
+You need at least compiler for CPP11, set environment variables with ```export CXXFLAGS=-g -std=c++11 -Wall -pedantic```
 
 Make catkin workspace:
 
